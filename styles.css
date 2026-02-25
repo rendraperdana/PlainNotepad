@@ -1,0 +1,6 @@
+.root{--bg:#f3f4f6;--panel:#ffffff}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{font-family:Inter,Segoe UI,system-ui,Arial,sans-serif;background:var(--bg);margin:0}
+.editor{background:var(--panel);border:0;border-radius:0;position:fixed;inset:0;padding:18px;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,monospace;font-size:14px;color:#111;outline:none;white-space:pre-wrap;word-wrap:break-word;overflow:auto}
+.editor:empty:before{content:attr(data-placeholder);color:#9ca3af}
